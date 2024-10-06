@@ -39,60 +39,49 @@
 }
 
 .crescent {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background: var(--clr-red);
-    margin: 12px auto;
-    box-shadow: -10px 0 0 7px #fff;
-  }
-  
-  .star {
-    background: 0 0;
-    width: 39px;
-    height: 0;
-    position: relative;
-    top: 35px;
-    left: 65px;
-    border-top: solid 15px #fff;
-    border-bottom: solid 15px #fff;
-    border-left: solid 15px transparent;
-    border-right: solid 15px transparent;
-    -webkit-transform: rotate(70deg);
-    -ms-transform: rotate(70deg);
-    -o-transform: rotate(70deg);
-    transform: rotate(70deg);
-  }
-  
-  .star:before {
-    content: "";
-    background: 0 0;
-    width: 39px;
-    height: 0;
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    border-top: solid 15px #fff;
-    border-bottom: solid 15px #fff;
-    border-left: solid 15px transparent;
-    border-right: solid 15px transparent;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-  }
-  
-  .circle {
-    width: 39px;
-    height: 39px;
-    border-radius: 100%;
-    background: #fff;
-    position: relative;
-    top: -20px;
-    left: 0;
-  }
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: var(--clr-red);
+  margin: 12px auto;
+  box-shadow: -25px 0 0 20px #fff;
+  border: none;
+}
 
+.starX {
+  width: 100px;
+  height: 0;
+  position: relative;
+  top: 40%;
+  left: 60%;
+  border-top: solid 22px #fff;
+  border-bottom: solid 22px #fff;
+  border-left: solid 25px transparent;
+  border-right: solid 25px transparent;
+  transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  -moz-transform: rotate(70deg);
+  -ms-transform: rotate(70deg);
+  -o-transform: rotate(70deg);
+}
+
+.starY{
+  width: 100px;
+  height: 0;
+  position: relative;
+  top: 40%;
+  left: 60%;
+  border-top: solid 22px #fff;
+  border-bottom: solid 22px #fff;
+  border-left: solid 25px transparent;
+  border-right: solid 25px transparent;
+  transform: rotate(160deg);
+  translate: 0px -45px;
+  -webkit-transform: rotate(160deg);
+  -moz-transform: rotate(160deg);
+  -ms-transform: rotate(160deg);
+  -o-transform: rotate(160deg);
+}
 
 .green{
     background-color: var(--clr-green);    
