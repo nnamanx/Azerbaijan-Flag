@@ -39,12 +39,13 @@
 }
 
 .crescent {
-  width: 220px;
-  height: 220px;
+  width: 15vw;
+  height: 15vw;
   border-radius: 50%;
   background: var(--clr-red);
-  margin: 12px auto;
-  box-shadow: -25px 0 0 20px #fff;
+  margin: 2vh auto;
+  /* box-shadow: -25px 0 0 20px #fff; */
+  box-shadow: -1.75vw 0 0 1.25vw #fff;
   border: none;
 }
 
@@ -54,10 +55,10 @@
   position: relative;
   top: 40%;
   left: 70%;
-  border-top: solid 25px #fff;
-  border-bottom: solid 25px #fff;
-  border-left: solid 25px transparent;
-  border-right: solid 25px transparent;
+  border-top: solid 1.75rem #fff;
+  border-bottom: solid 1.75rem #fff;
+  border-left: solid 1.75rem transparent;
+  border-right: solid 1.75rem transparent;
   transform: rotate(70deg);
   -webkit-transform: rotate(70deg);
   -moz-transform: rotate(70deg);
@@ -71,12 +72,12 @@
   position: relative;
   top: 40%;
   left: 70%;
-  border-top: solid 25px #fff;
-  border-bottom: solid 25px #fff;
-  border-left: solid 25px transparent;
-  border-right: solid 25px transparent;
+  border-top: solid 1.75rem #fff;
+  border-bottom: solid 1.75rem #fff;
+  border-left: solid 1.75rem transparent;
+  border-right: solid 1.75rem transparent;
   transform: rotate(160deg);
-  translate: 0px -50px;
+  translate: 0rem -3.25rem;
   -webkit-transform: rotate(160deg);
   -moz-transform: rotate(160deg);
   -ms-transform: rotate(160deg);
