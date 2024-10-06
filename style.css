@@ -1,8 +1,16 @@
+/* CSS Variables */
+:root {
+  --clr-blue: #00B5E2;
+  --clr-red: #EF3340;
+  --clr-green: #509E2F;
+
+}
+
+/* General */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
 }
 
 .flag-container{
@@ -19,12 +27,12 @@
 }
 
 .blue{
-    background-color: #00B5E2;
+    background-color: var(--clr-blue);
 
 }
 
 .red{
-    background-color: #EF3340;
+    background-color: var(--clr-red);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +42,7 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background: #EF3340;
+    background: var(--clr-red);
     margin: 12px auto;
     box-shadow: -10px 0 0 7px #fff;
   }
@@ -87,5 +95,5 @@
 
 
 .green{
-    background-color: #509E2F;    
+    background-color: var(--clr-green);    
 }
