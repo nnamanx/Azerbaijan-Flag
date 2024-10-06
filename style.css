@@ -49,13 +49,13 @@
 }
 
 .starX {
-  width: 100px;
+  width: 8rem;
   height: 0;
   position: relative;
   top: 40%;
-  left: 60%;
-  border-top: solid 22px #fff;
-  border-bottom: solid 22px #fff;
+  left: 70%;
+  border-top: solid 25px #fff;
+  border-bottom: solid 25px #fff;
   border-left: solid 25px transparent;
   border-right: solid 25px transparent;
   transform: rotate(70deg);
@@ -66,17 +66,17 @@
 }
 
 .starY{
-  width: 100px;
+  width: 8rem;
   height: 0;
   position: relative;
   top: 40%;
-  left: 60%;
-  border-top: solid 22px #fff;
-  border-bottom: solid 22px #fff;
+  left: 70%;
+  border-top: solid 25px #fff;
+  border-bottom: solid 25px #fff;
   border-left: solid 25px transparent;
   border-right: solid 25px transparent;
   transform: rotate(160deg);
-  translate: 0px -45px;
+  translate: 0px -50px;
   -webkit-transform: rotate(160deg);
   -moz-transform: rotate(160deg);
   -ms-transform: rotate(160deg);
